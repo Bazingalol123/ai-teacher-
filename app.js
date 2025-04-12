@@ -326,13 +326,9 @@ Remember: Focus on ${learningStyle} learning style - provide lots of hands-on ex
     }
 
     async function callOpenAI(message) {
-        const part1 = 'sk-proj-nTBgvMuRiT5_4sKhhyyb';
-        const part2 = 'ooueLllqj6R2GqVFNIN48WjJvLjl-';
-        const part3 = 'pkUD4FJ87js2kZ1f85o8KKOPVT3Bl';
-        const part4 = 'bkFJ2qVWyx20uI7IRIRWIohpXPqRO';
-        const part5 = '14cfYprESJdjQCpVc-3VMWs5NJrHujJUCY4H9EyoBHnm7epsA';
+       
         
-        const apiKey = part1 + part2 + part3 + part4 + part5;
+        const apiKey = "your-api-key-here";
         
         const subject = document.getElementById('subject').value;
         const learningProgress = currentUser.learningProgress[subject];
