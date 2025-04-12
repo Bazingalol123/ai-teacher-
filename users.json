@@ -1,0 +1,19 @@
+{
+    "users": [
+        {
+            "id": "user1",
+            "name": "John Doe",
+            "learningPaths": {
+                "React.js": {
+                    "level": "beginner",
+                    "learningStyle": "visual",
+                    "progress": {
+                        "currentTopic": "Components",
+                        "completedTopics": ["Introduction", "JSX Basics"],
+                        "lastSession": "2024-03-20T10:30:00Z"
+                    }
+                }
+            }
+        }
+    ]
+} 

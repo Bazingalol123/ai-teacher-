@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  # Development service
+  dev:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    container_name: ai-teacher-dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - /app/node_modules
+    environment:
+      - NODE_ENV=development
+    command: npm run dev
+
+  # Production service
+  prod:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ai-teacher-prod
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production 

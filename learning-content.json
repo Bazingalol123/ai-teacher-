@@ -1,0 +1,156 @@
+{
+    "subjects": {
+        "math": {
+            "beginner": {
+                "topics": [
+                    {
+                        "name": "Basic Arithmetic",
+                        "content": [
+                            "Addition and subtraction",
+                            "Multiplication and division",
+                            "Order of operations",
+                            "Word problems"
+                        ]
+                    },
+                    {
+                        "name": "Fractions",
+                        "content": [
+                            "Understanding fractions",
+                            "Adding and subtracting fractions",
+                            "Multiplying and dividing fractions",
+                            "Converting between fractions and decimals"
+                        ]
+                    }
+                ]
+            },
+            "intermediate": {
+                "topics": [
+                    {
+                        "name": "Algebra",
+                        "content": [
+                            "Linear equations",
+                            "Quadratic equations",
+                            "Polynomials",
+                            "Systems of equations"
+                        ]
+                    },
+                    {
+                        "name": "Geometry",
+                        "content": [
+                            "Basic shapes and properties",
+                            "Area and perimeter",
+                            "Volume and surface area",
+                            "Pythagorean theorem"
+                        ]
+                    }
+                ]
+            }
+        },
+        "physics": {
+            "beginner": {
+                "topics": [
+                    {
+                        "name": "Motion",
+                        "content": [
+                            "Speed and velocity",
+                            "Acceleration",
+                            "Newton's laws of motion",
+                            "Projectile motion"
+                        ]
+                    },
+                    {
+                        "name": "Forces",
+                        "content": [
+                            "Types of forces",
+                            "Force diagrams",
+                            "Friction",
+                            "Gravity"
+                        ]
+                    }
+                ]
+            }
+        },
+        "programming": {
+            "beginner": {
+                "topics": [
+                    {
+                        "name": "Variables and Data Types",
+                        "content": [
+                            "Understanding variables",
+                            "Basic data types",
+                            "Type conversion",
+                            "Variable scope"
+                        ]
+                    },
+                    {
+                        "name": "Control Flow",
+                        "content": [
+                            "If statements",
+                            "Loops",
+                            "Switch statements",
+                            "Logical operators"
+                        ]
+                    }
+                ]
+            }
+        },
+        "history": {
+            "beginner": {
+                "topics": [
+                    {
+                        "name": "Ancient Civilizations",
+                        "content": [
+                            "Mesopotamia",
+                            "Ancient Egypt",
+                            "Ancient Greece",
+                            "Ancient Rome"
+                        ]
+                    },
+                    {
+                        "name": "Middle Ages",
+                        "content": [
+                            "Feudalism",
+                            "The Crusades",
+                            "The Black Death",
+                            "The Renaissance"
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "learningStyles": {
+        "visual": {
+            "preferences": [
+                "Diagrams and charts",
+                "Color coding",
+                "Visual examples",
+                "Graphical representations"
+            ]
+        },
+        "auditory": {
+            "preferences": [
+                "Verbal explanations",
+                "Discussions",
+                "Audio recordings",
+                "Mnemonics"
+            ]
+        },
+        "reading": {
+            "preferences": [
+                "Written explanations",
+                "Text-based examples",
+                "Note-taking",
+                "Reading materials"
+            ]
+        },
+        "kinesthetic": {
+            "preferences": [
+                "Hands-on activities",
+                "Practical examples",
+                "Interactive exercises",
+                "Real-world applications"
+            ]
+        }
+    }
+} 

@@ -1,0 +1,19 @@
+{
+    "subjects": {
+        "React.js": {
+            "prerequisites": ["JavaScript", "HTML", "CSS"],
+            "keyTopics": ["Components", "State", "Props", "Hooks", "Routing", "State Management"],
+            "projectTypes": ["Single Page Application", "Dynamic Forms", "Data Dashboard", "Social Media Features"]
+        },
+        "JavaScript": {
+            "prerequisites": ["Basic Programming Concepts"],
+            "keyTopics": ["Variables", "Functions", "Objects", "Arrays", "Async Programming", "DOM Manipulation"],
+            "projectTypes": ["Interactive Website", "Data Processing", "API Integration", "Browser Games"]
+        },
+        "Python": {
+            "prerequisites": ["Basic Programming Concepts"],
+            "keyTopics": ["Data Types", "Functions", "OOP", "Modules", "File Handling", "APIs"],
+            "projectTypes": ["Data Analysis", "Web Scraping", "Automation", "Web Applications"]
+        }
+    }
+} 
